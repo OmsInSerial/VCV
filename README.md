@@ -1,2 +1,2 @@
 # VCV
-VCV rack modules
+All details available here: https://omsinserial.blogspot.com
