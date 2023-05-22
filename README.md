@@ -1,5 +1,11 @@
-# VCV
-Modules are developed under macOS. I'll do my best to make them Windows and Linux friendly...
+# VCV Rack 2 modules
+Modules are developed under macOS with the help of [Erb Eurorack-Blocks](https://github.com/ohmtech-rdi/eurorack-blocks). I'll do my best to make them Windows and Linux friendly...
+
+## Installation
+
+Copy and past the module directory into the default VCV Rack 2 plugins location wich is /Documents/Rack2/plugins/ by default under macOS.
+
+## Additional steps
 
 As you maybe know, code has to be signed to be distributed and run on macOS and every Apple products. Unfortunately, I'm not part of the Apple developer program, hence I can't sign my code. But, thanks to [Raphaël Dingé from Erb](https://github.com/ohmtech-rdi/eurorack-blocks) who pointed me to the solution, you can run VCV Rack 2 modules if you re-sign them with your OS device certificate and "allow downloaded apps" to run on your device.
 
