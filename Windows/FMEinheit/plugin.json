@@ -1,0 +1,23 @@
+{
+   "slug": "ErbPluginFMEinheit",
+   "name": "Erb Plugin",
+   "version": "2.0.0",
+   "license": "proprietary",
+   "brand": "Erb",
+   "author": "Erb",
+   "authorEmail": "",
+   "authorUrl": "https://github.com/ohmtech-rdi/eurorack-blocks",
+   "pluginUrl": "https://github.com/ohmtech-rdi/eurorack-blocks",
+   "manualUrl": "https://github.com/ohmtech-rdi/eurorack-blocks",
+   "sourceUrl": "https://github.com/ohmtech-rdi/eurorack-blocks",
+   "donateUrl": "",
+   "changelogUrl": "",
+   "modules": [
+      {
+         "slug": "FMEinheit",
+         "name": "FMEinheit",
+         "description": "FMEinheit",
+         "tags": [ "Digital", "Hardware" ]
+      }
+   ]
+}
