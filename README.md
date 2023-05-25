@@ -3,7 +3,11 @@ Modules are developed under macOS with the help of [Erb Eurorack-Blocks](https:/
 [Erb Eurorack-Blocks](https://github.com/ohmtech-rdi/eurorack-blocks) allows to test modules in the VCV Rack environment before going to the next stage of development.
 From idea to final hardware module, via VCV:
 
-<img src="pics/FMEinheit_hard.jpeg" width="384" height="512">
+| Idea          | VCV           |Hardware|
+| ------------- | ------------- |--------|
+| FM synthesizer | <img src="pics/FMEinheit_VCV.jpeg" width="192" height="346"> | <img src="pics/FMEinheit_hard.jpeg" width="384" height="512">  |
+
+
 
 ## Installation (both systems)
 
