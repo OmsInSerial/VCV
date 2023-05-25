@@ -2,7 +2,8 @@
 Modules are developed under macOS with the help of [Erb Eurorack-Blocks](https://github.com/ohmtech-rdi/eurorack-blocks). There is also an available Windows compatible version.
 [Erb Eurorack-Blocks](https://github.com/ohmtech-rdi/eurorack-blocks) allows to test modules in the VCV Rack environment before going to the next stage of development.
 From idea to final hardware module, via VCV:
-![FMEinheit harware module](/pics/FMEinheit_hard.jpeg)
+
+<img src="pics/FMEinheit_hard.jpeg" width="384" height="512">
 
 ## Installation (both systems)
 
