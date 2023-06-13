@@ -1,0 +1,191 @@
+// FMEinheit.erbui
+
+module FMEinheit {
+   // The width of your module (don't make it smaller than back board width!)
+   width 14hp
+
+   // The back board to use
+   board kivu12
+
+   // The front panel material
+   material aluminum black
+
+   // Header to put your module name
+   header { label "F.M. Einheit" }
+
+    // Pots
+   control freq_pot Pot {
+      position 41.5585mm, 30.3465mm
+      style rogan, 5ps
+      label "Freq + fine" { positioning top }
+      pin P1
+   }
+   control index2_pot Trim { // o1+ko2
+      position 6.3755mm, 64.363mm
+      label "Index 2" { positioning top }
+      pin P2
+   }
+   control index1_pot Trim { // o2+ko1
+      position 18.0805mm, 64.363mm
+      label "Index 1" { positioning top }
+      pin P3
+   }
+   control osc1_ratio_trim Trim {
+      position 29.7895mm, 64.363mm
+      label "Ratio 1" { positioning top }
+      pin P4
+   }
+   control osc2_ratio_trim Trim {
+      position 41.4965mm, 64.363mm
+      label "Ratio 2" { positioning top }
+      pin P5
+   }
+   control osc1_depth_trim Trim {
+      position 53.203mm, 64.363mm
+      label "o1 mod" { positioning top }
+      pin P6
+   }
+   control osc2_depth_trim Trim {
+      position 64.899mm, 64.363mm
+      label "o2 mod" { positioning top }
+      pin P7
+   }
+   control harmonics_trim Trim {
+      mode bipolar
+      position 18.0805mm, 84.131mm
+      label "Harm" { positioning top }
+      pin P8
+   }
+   control mix_trim Trim {
+      mode bipolar
+      position 35.6435mm, 84.131mm
+      label "Mix" { positioning top }
+      pin P9
+   }
+   
+
+   // Trims
+
+   control osc1_depth_cv_in_trim Trim {
+      mode bipolar
+      position 53.203mm, 84.131mm
+      label "–/+" { positioning top }
+      pin P10
+   }
+   control osc2_depth_cv_in_trim Trim {
+      mode bipolar
+      position 64.899mm, 84.131mm
+      label "–/+" { positioning top }
+      pin P11
+   }
+
+    // Ins
+   control index_cv_in CvIn {
+      mode bipolar
+      position 6.817mm, 99.64mm
+      style knurled
+      label "Index"
+   }
+   control harmonics_cv_in CvIn {
+      mode bipolar
+      position 18.167mm, 99.64mm
+      style knurled
+      label "Harm"
+   }
+   control osc1_ratio_cv_in CvIn {
+      mode bipolar
+      position 29.627mm, 99.64mm
+      style knurled
+      label "Ratio 1"
+   }
+   control osc2_ratio_cv_in CvIn {
+      mode bipolar
+      position 41.267mm, 99.64mm
+      style knurled
+      label "Ratio 2"
+   }
+   control osc1_depth_cv_in CvIn {
+      mode bipolar
+      position 52.417mm, 99.64mm
+      style knurled
+      label "Mod 1"
+   }
+   control osc2_depth_cv_in CvIn {
+      mode bipolar
+      position 63.817mm, 99.64mm
+      style knurled
+      label "Mod 2"
+   }
+   control freq_cv_in CvIn {
+      position 29.627mm, 112.6mm
+      style knurled
+      label "Freq"
+   }
+   control mix_cv_in CvIn {
+      mode bipolar
+      position 41.267mm, 112.6mm
+      style knurled
+      label "Mix"
+   }
+
+   // Leds
+   control index2_led LedBi {
+      position 6.3755mm, 54.6935mm
+      pins L1,L2
+   }
+   control mix_led LedBi {
+      position 35.6435mm, 74.6715mm
+      pins L3,L4
+   }
+   control fine_tune_led LedBi {
+      position 59.0435mm, 21.9245mm
+      pins L7,L8
+   }
+   control index1_led LedBi {
+      position 18.0805mm, 54.6935mm
+      pins L9,L10
+   }
+   control harmonics_led LedBi {
+      position 18.0805mm, 74.6715mm
+      pins L11,L12
+   }
+   control ratio1_led LedBi {
+      position 29.7895mm, 54.6935mm
+      pins L13,L14
+   }
+   control ratio2_led LedBi {
+      position 41.4965mm, 54.6935mm
+      pins L15,L16
+   }
+
+   // Buton
+   control shift_button Button{
+      position 18.069mm, 30.346mm
+      style small, black
+      label "Shift"
+   }
+
+   // Ins/outs
+   // audio in
+   control audio_in1 AudioIn {
+      position 6.817mm, 112.6mm
+      style thonk.pj398sm.knurled
+      label "FM->1"
+   }
+   control audio_in2 AudioIn {
+      position 18.167mm, 112.6mm
+      style thonk.pj398sm.knurled
+      label "FM->2"
+   }
+   // audio output
+   control audio_out_1 AudioOut {
+      position 52.417mm, 112.6mm
+      style thonk.pj398sm.knurled
+      label "1"
+   }
+   control audio_out_mix AudioOut {
+      position 63.817mm, 112.6mm
+      style thonk.pj398sm.knurled
+      label "1+2"
+   }
+}
