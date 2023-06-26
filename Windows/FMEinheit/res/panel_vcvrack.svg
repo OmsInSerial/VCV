@@ -22,11 +22,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="4.477496"
-     inkscape:cx="136.79521"
-     inkscape:cy="342.82554"
+     inkscape:zoom="5.6975331"
+     inkscape:cx="140.4994"
+     inkscape:cy="401.66506"
      inkscape:window-width="2560"
-     inkscape:window-height="1310"
+     inkscape:window-height="1311"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
@@ -590,10 +590,9 @@
          id="path8981" />
     </g>
     <path
-       style="display:inline;fill:none;stroke:url(#linearGradient4081);stroke-width:0.439965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 146.99581,358.3645 h -4.67716 l -0.56693,-2.26772 -0.56693,4.53544 -0.85039,-4.53544 -0.56693,4.53544 -0.8504,-4.53544 -0.56693,4.53544 -0.85039,-4.53544 -0.56693,4.53544 -0.85039,-4.53544 -0.56693,4.53544 -0.56693,-2.26772 h -4.96063"
-       id="path6600-3"
-       sodipodi:nodetypes="cccccccccccccc" />
+       style="color:#000000;fill:url(#linearGradient4081);-inkscape-stroke:none"
+       d="m 141.96484,356.04297 -0.43164,0.0273 -0.39258,3.13867 -0.58984,-3.15234 -0.43555,0.0137 -0.39062,3.13477 -0.5918,-3.14844 -0.43359,0.0137 -0.39258,3.13867 -0.58984,-3.15234 -0.43555,0.0137 -0.39258,3.13867 -0.58984,-3.15234 -0.43555,0.0137 -0.41992,3.36524 -0.32227,-1.29102 h -5.13281 v 0.43945 h 4.78906 l 0.52539,2.10157 0.43164,-0.0254 0.39258,-3.13868 0.58985,3.15039 0.43359,-0.0117 0.39258,-3.13672 0.5918,3.14843 0.43359,-0.0117 0.39258,-3.13868 0.58984,3.15039 0.43555,-0.0117 0.39258,-3.13868 0.58984,3.15039 0.43359,-0.0117 0.42188,-3.36719 0.32226,1.29101 h 4.84961 v -0.43945 h -4.50586 z"
+       id="path6600-3" />
     <g
        aria-label="Shift"
        transform="matrix(1.0019151,0,0,0.99808856,2.2317066,0)"
@@ -1834,7 +1833,7 @@
     </g>
     <g
        id="g153751"
-       transform="matrix(2.8346457,0,0,2.8346457,3.0055166,4.80684)"
+       transform="matrix(2.8346457,0,0,2.8346457,1.5471702,4.80684)"
        style="display:inline;fill:#ffffff;fill-opacity:1">
       <g
          aria-label="1"
@@ -1985,4 +1984,26 @@
          id="path9706" />
     </g>
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="elements"
+     style="display:inline">
+    <path
+       style="fill:#fffff8;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 33.781114,237.27854 h 5.044647 l -2.522324,4.36903 z"
+       id="path1361" />
+    <path
+       style="display:inline;fill:#fffff8;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 63.68866,237.27855 h 5.044647 l -2.522324,4.36903 z"
+       id="path1361-0" />
+    <path
+       style="display:inline;fill:#fffff8;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 83.732121,237.30106 h 5.044647 l -2.522324,4.36903 z"
+       id="path1361-3" />
+  </g>
+  <path
+     style="display:inline;fill:#fffff8;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 113.66219,237.32358 h 5.04465 l -2.52233,4.36903 z"
+     id="path1361-5" />
 </svg>
