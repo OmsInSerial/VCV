@@ -40,4 +40,4 @@ Launch VCV Rack 2 and you now have another security alert in wich you can "Open"
 
 That's all! :+1:
 
-All details about modules are available here: https://omsinserial.blogspot.com
+All details about modules are available here: https://omsinserial.com
